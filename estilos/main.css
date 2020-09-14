@@ -1,9 +1,22 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
 body {
   font-family: "Rubik", sans-serif;
 }
 .header {
+  display: block;
+  width: 100%;
   position: fixed;
   top: 0px;
+  z-index: 1;
+  color: white;
+}
+
+.container-image {
+  position: relative;
+  left: 90px;
 }
 
 .menu {
@@ -17,4 +30,5 @@ body {
   background-color: #3cdbc0;
   position: relative;
   top: 188px;
+  height: 500vh;
 }

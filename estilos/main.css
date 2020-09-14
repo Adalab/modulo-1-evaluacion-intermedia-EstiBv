@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: auto;
   box-sizing: border-box;
 }
 body {
@@ -11,14 +11,21 @@ body {
   position: fixed;
   top: 0px;
   z-index: 1;
-  color: white;
 }
 
 .container-image {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 155px;
   position: relative;
-  left: 90px;
+  padding: 10px 0 10px 0px;
 }
 
+img {
+  width: 100%;
+}
 .menu {
   color: #4a4a4a;
   display: flex;
@@ -30,5 +37,7 @@ body {
   background-color: #3cdbc0;
   position: relative;
   top: 188px;
-  height: 500vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }

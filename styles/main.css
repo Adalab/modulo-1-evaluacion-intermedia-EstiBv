@@ -21,7 +21,7 @@
   text-align: center;
 }
 .header__image {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 .header__menu {
@@ -32,14 +32,18 @@
   color: var(--colortext-header-);
   display: flex;
   justify-content: space-around;
+  list-style: none;
 }
 
 .header__menu--blog {
-  padding: 10px 10px 13px 10px;
-  text-decoration: none;
+  padding: 10px 10px 13px 2px;
 }
 .header__menu--contact {
-  padding: 10px 10px 13px 10px;
+  padding: 10px 10px 13px 2px;
+}
+.bloglink,
+.contactlink {
+  color: var(--colortext-header-);
 }
 
 /* main */
@@ -74,6 +78,7 @@
     padding: 20px 0 20px 30px;
   }
   .header__menu {
+    padding-top: 10px;
     padding-right: 30px;
   }
   .header__menu--blog {
